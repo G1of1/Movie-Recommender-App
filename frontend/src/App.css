@@ -1,0 +1,45 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&family=Parkinsans:wght@300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Silkscreen:wght@400;700&display=swap');
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  font-family: Quicksand;
+}
+body {
+  text-align: center;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  font-family: Quicksand;
+  background-color: rgb(186, 214, 255);
+}
+
+#search-bar {
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  background-color: rgba(211, 207, 207, 0.222);
+  font-family: Quicksand;
+}
+
+#button {
+  border-radius: 25px;
+  font-family: Quicksand;
+  border: none;
+  transition: background-color 0.5s;
+  cursor: pointer;
+}
+
+#button:hover {
+  background-color: red;
+}
+
+#button:active {
+  background-color: rgb(166, 255, 0);
+}
+
+li {
+  list-style: none;
+}
